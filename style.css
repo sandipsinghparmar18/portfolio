@@ -255,6 +255,7 @@ header{
 .intro-info p{
     font-size: 1.2rem;
     opacity: 0.8;
+    margin-top: 2rem;
 }
 
 .about-content{
@@ -269,7 +270,7 @@ header{
 }
 
 .profile{
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -304,7 +305,7 @@ header{
 }
 
 .skill + p{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     opacity: 0.8;
     font-size: 1.2rem;
 }
@@ -363,6 +364,10 @@ header{
     justify-content: center;
 
 }
+.btn-section div button a{
+    text-decoration: none;
+    color: #d3d3d3;
+}
 .btn-section div button:first-child{
     height: 3rem;
     width: 14rem;
@@ -389,7 +394,7 @@ header{
     color: white;
 }
 
-.btn-section div button:nth-child(2):hover{
+.btn-section div button::nth-child(2):hover{
     background-color: #000000;
 }
 
